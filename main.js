@@ -43,9 +43,9 @@ console.log(conCat('abc','cat'));
 //
 
 //My Solution:
-function make2(a,b) {
-    let c = a.concat(b);
-    return [c[0],c[1]];
+function make2(arr1,arr2) {
+    let arr3 = arr1.concat(arr2);
+    return [arr3[0],arr3[1]];
 }
 
 console.log(make2([4], [1, 2, 3]));
@@ -56,6 +56,7 @@ console.log(make2([4], [1, 2, 3]));
 //
 //     return [newAr[0], newAr[1]];
 // }
+
 
 
 //TODO Concat MDN website example
@@ -76,7 +77,9 @@ console.log(make2([4], [1, 2, 3]));
 // var array6 = ['p', 'q', 'r'];
 // var array7 = ['s', 't', 'u'];
 // var array8 = ['v', 'w', 'x'];
-// var array9 = ['y', 'z', 'a'];
+// var array9 = ['y', 'z',];
+
+
 
 
 
